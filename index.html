@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Fitness</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--reset css-->
+    <style>
+        body{
+           margin: 0px;
+           padding: 0px;
+            background-image: url(https://images.pexels.com/photos/371049/pexels-photo-371049.jpeg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background width:4120px ;
+            background height:1752px;
+            color:azure;
+            font-family: 'Poppins', sans-serif;
+        }
+        .left{
+            /*border: 2px solid red;*/
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 50px;
+            
+        }
+        .mid{
+           /* border: 2px solid rgb(2, 64, 101);*/
+            display: block;
+            width: 45%;
+            margin: 13px auto;
+            padding: 35px 50px;
+        }
+        .right{
+
+           /* border: 2px solid rgb(49, 5, 113);*/
+            display: inline-block;
+            position: absolute;
+            right: 34px;
+            top: 20px;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 127px -86px;
+            margin: 20px 10px;
+        }
+        .navbar li a:hover,.navbar li a active{
+             text-decoration: underline;
+            color: rgb(106, 106, 106);
+        }
+        .left img{
+            width: 191px;
+    filter: invert(100%);
+    size: 30px;
+    padding-left: -60px;
+        }
+       .btn{
+        margin: 13px 9px;
+    padding: 4px 15px;
+    background-color: #f5f1f1;
+    color: #034140;
+    border: 2px gray;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+       }
+       .btn:hover{
+        background-color: gray;
+
+       }
+       .container{
+        border: 2px solid white;
+        margin: 106px 88px;
+        padding: 75px;
+        width: 24%;
+        height: 380px;
+        border-radius: 28px;
+
+
+       }
+       .form-group input {
+        font-family:'Poppins', sans-serif
+        text-align: center;
+        display: block;
+        width: 356px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        border-radius: 8px;
+        
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+
+        
+           
+    </style>
+</head>
+<body>
+    <header class="header">
+<!--left box for logo-->
+    <div class="left">
+        <img src="https://beardclick.com/wp-content/uploads/elementor/thumbs/global-fitness-official-01-oo0kz1tiob16432c26go6u4gl88w2x7s6itqpw0n0o.png" alt="">
+       
+
+    </div>
+    <!--mid box for navbar-->
+    <div class="mid">
+         <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+
+         </ul>
+    </div>
+    <!--right box for button-->
+    <div class="right">
+        <button class="btn">Call Us Now</button>
+        <button class="btn">Email Us Now</button>
+    
+
+    </div>
+</header>
+<div class="container">
+    <h1>Join The Best Gym Of Pimpri Now..</h1>
+   
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Locality">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Email Id">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Phone Number">
+        </div>
+        <button class="btn">Submit</button>
+    </form>
+        
+    </div>
+</body>
+</html>
